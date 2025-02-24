@@ -7,7 +7,7 @@ const Counter = () => {
     let [count,setcount]=useState(0)
 
     
-    let [sample,setSample] =useState(()=>{return returnState()})
+    let [sample] =useState(()=>{return returnState()})
     
     function returnState(){
         console.log(100);
