@@ -1,5 +1,6 @@
 // import React from 'react'
 import styled from "styled-components"
+import Counter from "./counter"
 
 let contentstyle={
   backgroundColor: "red",
@@ -47,6 +48,7 @@ const Content = () => {
       <h1 style={contentstyle}>Main Content -{user}</h1>  
       <Button onClick={print} >click me!</Button> 
       <NewButton onClick={()=>{print1()}}> submit !</NewButton>
+      <Counter/>
     </main>
   )
 }
