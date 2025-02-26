@@ -2,7 +2,6 @@
 import 'react'
 import ProductDetails from './ProductDetails';
 
-// eslint-disable-next-line react/prop-types
 const ProductItem = ( {product} ) => {
     
     
