@@ -1,6 +1,6 @@
 // import React from 'react'
 import styled from "styled-components"
-import Counter from "./counter"
+import Counter from "./Counter"
 
 let contentstyle={
   backgroundColor: "red",
@@ -45,9 +45,6 @@ function print(){
 const Content = () => {
   return (
     <main>
-      <h1 style={contentstyle}>Main Content -{user}</h1>  
-      <Button onClick={print} >click me!</Button> 
-      <NewButton onClick={()=>{print1()}}> submit !</NewButton>
       <Counter/>
     </main>
   )
